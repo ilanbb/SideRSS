@@ -1,0 +1,7 @@
+eckpoint
+*.pyc
+*.txt
+*.npy
+*.data-*-of*
+*.index
+*.meta
