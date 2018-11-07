@@ -34,8 +34,10 @@ Predicting:
         For predicting structure probabilities using a pre-trained model:
 	
 		python siamese/main.py predict <test_seq_file> <flank_size> <prediction_file> 
-		
-	A model with a predefined name is taken from the current directory. If no flanking was used, set flank value to zero.
+	
+	A model with a predefined name is taken from the current directory. 
+	
+	If no flanking was used, set flank value to zero.
 
 
 Input format:
