@@ -14,18 +14,27 @@ Setting up:
 
 Training:
 
-	For traininig a prediction model: python main.py train <train_seq_file> <train_struct_path>
+	For traininig a prediction model: 
+        
+        python siamese/main.py train <train_seq_file> <train_struct_path>
+
 	The model will be saved in the current directory under a predefined name.
 
 Evaluation:
 
-	For evaluating the perfomance of a pre-trained model on a test/validation set: python main.py eval <test_seq_file> <test_struct_path>
+	For evaluating the perfomance of a pre-trained model on a test/validation set:
+
+        python siamese/main.py eval <test_seq_file> <test_struct_path>
+
         A model with a predefined name is taken from the current directory.
 
 
 Predicting:
 
-        For predicting structure probabilities using a pre-trained model: python main.py predict <test_seq_file> <flank_size> <prediction_file> 
+        For predicting structure probabilities using a pre-trained model:
+
+        python siamese/main.py predict <test_seq_file> <flank_size> <prediction_file> 
+
         A model with a predefined name is taken from the current directory. If no flanking was used, set flank value to zero.
 
 
