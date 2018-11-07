@@ -45,12 +45,12 @@ Input format:
 A sequence-information file contains a set of RNA sequnces. Every sequence is stored in two lines in the following format:
 
 	>1:4687934-4689403
-        CCAACTTCATTTTTTATTTGCGCTTGAA...
+	CCAACTTCATTTTTTATTTGCGCTTGAA...
 
 A structure-information file contains structure probabilities, one for each nucleotide in the corresponding sequences (probability of being unpaired). Information on every sequence is stored in two lines in the following format: 
 
 	>1:4687934-4689403
-        0.032	0.02	0.0	0.021	0.0	0.0	0.083...
+	0.032	0.02	0.0	0.021	0.0	0.0	0.083...
 
 Partial sample input files can be found in the data directory.
 
