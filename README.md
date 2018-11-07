@@ -31,7 +31,7 @@ Evaluation:
 
 Predicting:
 
-        For predicting structure probabilities using a pre-trained model:
+	For predicting structure probabilities using a pre-trained model:
 	
 		python siamese/main.py predict <test_seq_file> <flank_size> <prediction_file> 
 	
