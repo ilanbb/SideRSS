@@ -14,10 +14,10 @@ Setting up:
 
 Training:
 
-	For traininig a prediction model: 
-        
-        python siamese/main.py train <train_seq_file> <train_struct_path>
-
+	For traininig a prediction model:
+	
+	python siamese/main.py train <train_seq_file> <train_struct_path>
+	
 	The model will be saved in the current directory under a predefined name.
 
 Evaluation:
