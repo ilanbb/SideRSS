@@ -41,6 +41,8 @@ A structure-information file contains structure probabilities, one for each nucl
 	>1:4687934-4689403
         0.032	0.02	0.0	0.021	0.0	0.0	0.083...
 
+Partial sample input files can be found in the data directory.
+
 Output format:
 
 The format of a prediction file is similar to the format of a structure information input file, except that it also contains the probability each nucleotide is paired. 
