@@ -2,7 +2,7 @@
 SideRSS: A Siamese deep neural network for predicting RNA structure from high-throughput RNA probing data
 
 A TensorFlow implementation of a Siamese convolutional neural networks for predicting RNA structure probabilities from RNA sequence. 
-The network outputs a single value for every nucleotide, indicating its probability of being unpaired. 
+The network outputs a single value for every nucleotide, indicating its score of being unpaired. 
 
 Requirements:
 
@@ -47,7 +47,7 @@ A sequence-information file contains a set of RNA sequnces. Every sequence is st
 	>1:4687934-4689403
 	CCAACTTCATTTTTTATTTGCGCTTGAA...
 
-A structure-information file contains structure probabilities, one for each nucleotide in the corresponding sequences (probability of being unpaired). Information on every sequence is stored in two lines in the following format: 
+A structure-information file contains structure reactivity scores, one for each nucleotide in the corresponding sequences (proportional to its probability being unpaired). Information on every sequence is stored in two lines in the following format: 
 
 	>1:4687934-4689403
 	0.032	0.02	0.0	0.021	0.0	0.0	0.083...
@@ -56,4 +56,4 @@ Partial sample input files can be found in the data directory.
 
 Output format:
 
-The format of a prediction file is similar to the format of a structure information input file, except that it also contains the probability each nucleotide is paired. 
+The format of a prediction file is similar to the format of a structure information input file, except that it also contains the a score for  each nucleotide being paired. 
